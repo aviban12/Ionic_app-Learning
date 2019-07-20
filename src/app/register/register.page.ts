@@ -6,7 +6,6 @@ import {Router} from '@angular/router';
   styleUrls: ['./register.page.scss'],
 })
 export class RegisterPage implements OnInit {
-
   name: string;
   email: string;
   address: string;
@@ -14,12 +13,11 @@ export class RegisterPage implements OnInit {
   password: string;
   constructor(private router: Router) { }
   signup() {
-
+    return this.router.navigateByUrl('/vihan');
   }
   gobacklogin() {
     return this.router.navigateByUrl('/home');
   }
   ngOnInit() {
   }
-
 }

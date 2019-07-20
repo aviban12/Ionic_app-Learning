@@ -9,6 +9,16 @@ export class VihanhomePage implements OnInit {
 
   constructor() { }
 
+  cameraservices() {
+
+  }
+
+  watersaver() {
+
+  }
+  roservices() {
+
+  }
   ngOnInit() {
   }
 
