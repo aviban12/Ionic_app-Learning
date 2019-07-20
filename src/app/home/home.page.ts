@@ -15,6 +15,7 @@ export class HomePage {
   login() {
     console.log('username: ' + this.username);
     console.log('password: ' + this.password);
+    return this.router.navigateByUrl('/vihanhome');
   }
 
   goRegister() {
